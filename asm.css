@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: TimesNewRoman, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+marquee {
+    font-variant: small-caps;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+header {
+    width: 960px;
+    height: 120px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(9, 60, 73);
+    text-decoration: none;
+}
+
+.menu>ul>li>a {
+    line-height: 50px;
+    font-variant: small-caps;
+    list-style: none;
+    margin-left: 30px;
+}
+
+li {
+    float: left;
+}
+
+.menu {
+    background-color: rgb(40, 185, 243);
+    width: 960px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+ul>.img1 {
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 11px;
+    margin-left: 35px;
+}
+
+.container>aside {
+    float: left;
+    clear: left;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr:first-child {
+    background-color: rgb(49, 147, 185);
+}
+
+tr:nth-child(2n) {
+    background-color: skyblue;
+}
+
+.tr1 {
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+}
+
+.tr1>td>a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tr2 {
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+}
+
+.tr2 td a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tr1 td:hover {
+    background-color: rgb(49, 147, 185);
+    color: white;
+}
+
+.tr2 td:hover {
+    background-color: rgb(49, 147, 185);
+}
+
+.tr1 td a:hover {
+    color: white;
+}
+
+.tr2 td a:hover {
+    color: white;
+}
+
+.container>article {
+    float: right;
+    width: 80%;
+    background-color: white;
+}
+
+.container>article>p {
+    margin-left: 230px;
+    border: 3px black;
+}
+
+footer {
+    clear: both;
+    margin-top: 800px;
+    line-height: 50px;
+    text-align: center;
+    font-variant: small-caps;
+    border-top: double black;
+    background-color: rgb(40, 185, 243);
+    font-weight: bold;
+}
+
+footer>p {
+    margin-left: 20px;
+}
+
+input {
+    width: 145px;
+}
